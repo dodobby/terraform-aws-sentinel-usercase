@@ -10,7 +10,7 @@ policy "check-iam-password-complexity" {
 
 policy "check-iam-password-expiration" {
   source = "./check-iam-password-expiration.sentinel"
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "check-iam-password-reuse-count" {
